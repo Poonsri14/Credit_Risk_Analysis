@@ -2,7 +2,9 @@ linear_regression_salary
 logistic_regression
 17-4-2-precision__recall_f1
 LoanStats_2019Q1.csv
-
+17-5-2-svm
+17-6-1-label_encode
+17-6-4-scale
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
