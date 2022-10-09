@@ -10,34 +10,40 @@ To use imbalanced-learn and scikit-learn libraries to build and evaluate models 
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company. For oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Furthermore, combinatorial approach of over- and undersampling using the SMOTEENN algorithm that will reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
 
-### Results:
+### Results: 
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.(15 pt)
 
-#### Deliverable 1: Use Resampling Models to Predict Credit Risk
 
-An accuracy score for the model is calculated (7.5 pt)
-A confusion matrix has been generated (7.5 pt)
-An imbalanced classification report has been generated
+#### Balanced Accuracy Score and The Imbalanced Classification Report for each machine learning models
 
-#### Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 
-An accuracy score for the model is calculated (5 pt)
-A confusion matrix has been generated (5 pt)
-An imbalanced classification report has been generated 
+##### RandomOverSampler 
+![1](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/RandomOverSampler_AC.png)
+![1](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/RandomOverSampler_Table.png)
 
-#### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+##### SMOTEENN
+![2](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN_AC.png)
+![2](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN_Table.png)
 
-The BalancedRandomForestClassifier algorithm does the following:
-An accuracy score for the model is calculated (2.5 pt)
-A confusion matrix has been generated (2.5 pt)
-An imbalanced classification report has been generated (5 pt)
-The features are sorted in descending order by feature importance (5 pt)
+##### SMOTE
+![3](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTE_AC.png)
+![3](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTE_Table.png)
 
-The EasyEnsembleClassifier algorithm does the following:
-An accuracy score of the model is calculated (2.5 pt)
-A confusion matrix has been generated (2.5 pt)
-An imbalanced classification report has been generated 
+##### ClusterCentroids
+![4](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids_AC.png)
+![4](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids_Table.png)
+
+##### BalancedRandomForestClassifier
+![5](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/BalancedRandomForestClassifier_AC.png)
+![5](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/BalancedRandomForestClassifier_Table.png)
+
+##### EasyEnsembleClassifier
+![6](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/EasyEnsembleClassifier_AC.png)
+![6](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/EasyEnsembleClassifier_Table.png)
+
+
+
 
 
 
