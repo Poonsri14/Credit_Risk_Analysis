@@ -14,9 +14,11 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 The above pictures are showing the balanced accuracy score and the precision and recall scores of all six machine learning models.
 
-From the confusion matrix results, the precision for the bad loan applications is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall is also low for the bad loan applications, which is indicative of a large number of false negatives. The F1 score is also low (33).
+From the over, under, and combination sampling results, the balanced accuracy scores are low which are 0.67, 0.54, and 0.64, respectivly. The average precision scores are good. However, the recall scores are low for low risk credit and is reflected in dropped the F1 score as well. 
 
-In summary, this random forest model is not good at classifying fraudulent loan applications because the model's accuracy, 0.520, and F1 score are low.
+For BalancedRandomForestClassifier and EasyEnsembleClassifier models have high model's accuracy, recall, F1 score are high (0.93).
+
+
 #### Balanced Accuracy Score and The Imbalanced Classification Report for each machine learning models
 
 
@@ -56,15 +58,9 @@ In summary, this random forest model is not good at classifying fraudulent loan 
 ![6](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/EasyEnsembleClassifier_Table.png)
 
 
-
-
-
-
-
-
 ### Summary:
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification If you do not recommend any of the models, justify your reasoning.
+In summary, this BalancedRandomForestClassifier and EasyEnsembleClassifier models are good at credit card risk analysis because the models's accuracy, 0.79 are high, and the precision and recall and F1 are good enough to state that the model will be good at classifying credit card risk applications. F1 score is high (0.93). The both model are efficiency and no need to do the addtional test modle.
 
-(3 pt)
+
+
