@@ -12,27 +12,40 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Results: 
 
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.(15 pt)
+The above pictures are showing the balanced accuracy score and the precision and recall scores of all six machine learning models.
 
+From the confusion matrix results, the precision for the bad loan applications is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall is also low for the bad loan applications, which is indicative of a large number of false negatives. The F1 score is also low (33).
 
+In summary, this random forest model is not good at classifying fraudulent loan applications because the model's accuracy, 0.520, and F1 score are low.
 #### Balanced Accuracy Score and The Imbalanced Classification Report for each machine learning models
 
 
-##### RandomOverSampler 
+#### Oversampling: Naive RandomOverSampler VS SMOTE
+
+##### Naive RandomOverSampler 
 ![1](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/RandomOverSampler_AC.png)
 ![1](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/RandomOverSampler_Table.png)
 
-##### SMOTEENN
-![2](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN_AC.png)
-![2](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN_Table.png)
-
 ##### SMOTE
-![3](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTE_AC.png)
-![3](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTE_Table.png)
+![2](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTE_AC.png)
+![2](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTE_Table.png)
+
+#### Undersampling
 
 ##### ClusterCentroids
 ![4](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids_AC.png)
 ![4](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids_Table.png)
+
+
+### Combination(Over and Under)sampling
+
+##### SMOTEENN
+![3](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN_AC.png)
+![3](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN_Table.png)
+
+
+
+### Ensemble Algorithms: BalancedRandomForestClassifier VS EasyEnsembleClassifier
 
 ##### BalancedRandomForestClassifier
 ![5](https://github.com/Poonsri14/Credit_Risk_Analysis/blob/main/Resources/BalancedRandomForestClassifier_AC.png)
