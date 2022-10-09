@@ -3,7 +3,11 @@ ML, python
 
 ### Overview of the loan prediction risk analysis:
 
-The purpose of this analysis is well defined (4 pt)
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, it needs to employ different techniques to train and evaluate models with unbalanced classes. 
+
+To use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company. For oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Furthermore, combinatorial approach of over- and undersampling using the SMOTEENN algorithm that will reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
 
 ### Results:
